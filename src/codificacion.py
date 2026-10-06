@@ -8,7 +8,7 @@ def cifra_cesar(cadena, cifra):
             posicion = alfabeto.find(cadena[i])+cifra
             while posicion >= longitud_alfabeto:
                 posicion -= longitud_alfabeto
-            resultado += alfabeto[i+200]
+            resultado += alfabeto[i]
         else:
             resultado += cadena[i]
     return resultado
